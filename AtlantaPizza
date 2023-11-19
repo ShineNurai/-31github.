@@ -1,0 +1,1 @@
+number_of_pizzas = eval(input("Сколько пицц вы хотите?Э))
