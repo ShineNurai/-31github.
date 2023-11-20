@@ -1,1 +1,10 @@
 number_of_pizzas = eval(input("Сколько пицц вы хотите?Э))
+cost_per_pizza = eval(input("Сколько стоит пицца ?"))
+subtotal = number_of_pizza*cost_per_pizza
+tax_rate = 0.08
+sales_tax = subtotal_tax_rate
+total = subtotal + sales_tax
+
+print = ("Полная стоимость $", total)
+print = ( "В том числе $", subtotal, "За пиццу и ")
+print = ( "$", sales_tax, "налог с продаж")
