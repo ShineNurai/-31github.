@@ -1,0 +1,6 @@
+answer = input ("Do you love me ?")
+if answer == ("yes"):
+   print ("i love you to")
+  
+else:
+ print ("i love you more")
