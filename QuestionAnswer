@@ -1,0 +1,20 @@
+question = "Почему меня интересует програмирование?"
+right_answer = "Деньги"
+answer1 = "Быть корпоративным рабом"
+answer2 = "Слава"
+
+print(question)
+print("-" * 40)
+print(right_answer)
+print(answer1)
+print(answer2)
+
+
+user_answer = input("Введите правильный ответ:")
+
+if user_answer == right_answer:
+    print("Вы ответили правильно!")
+else:
+   print("Ответ не верный!")
+   print("Правильный ответ:")
+   print(right_answer)
