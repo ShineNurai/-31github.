@@ -1,0 +1,19 @@
+def buttonC_wasPressed():
+  lcd.print(myfun(-9))
+  
+  sum = add(3, 6)
+  lcd.print(sum)
+  pass
+btnC.wasPressed(buttonC_wasPressed)
+
+def myfun(x):
+  if x > 0:
+    return x
+  else:
+    return -x
+    
+def add(a, b):
+  return a + b
+  
+def sayHello():
+  print('Hello Kitty')
